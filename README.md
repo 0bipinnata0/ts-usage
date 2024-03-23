@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- build
+  - 指影响应用程序构建步骤或外部依赖项的提交，例如对您的 NPM 软件包进行更新。 
+- chore
+  - 任务:针对实施维护相关更新的提交，比如更新您的.gitignore 文件或现有的 API 密钥。
+- ci
+  - 用于修改CI(持续集成)配置的提交。
+- docs
+  - 用于修改项目文档的提交。
+- feat
+  - 用于向您的代码库添加新功能的提交。这种提交类型在语义化版本控制(SemVer)中等同于次要版本发布。
+- fix
+  - 用于向代码库添加错误修复的提交。该提交类型与语义化版本控制(SemVer)中的补丁版本释放同义。
+- perf
+  - 为改进应用性能的提交。
+- refactor
+  - 用于重新整理代码库特定部分的提交，比如重命名一个函数。
+- revert
+  - 将您的代码库回滚到先前的提交历史记录。您也可 以在页脚中添加您要回滚的提交SHA作为参考，例如，Refs: 7b804hrw, b394c306。
+- style
+  - 用于修改代码风格的提交，比如添加分号、空格或缩进。
+- test
+  - 针对修改您应用程序测试代码的提交。
