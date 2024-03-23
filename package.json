@@ -3,6 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0bipinnata0/ts-usage"
+  },
+  "bugs": {
+    "url": "https://github.com/0bipinnata0/ts-usage/issues",
+    "email": "suakuraity@gmail.com"
+  },
   "scripts": {
     "dev": "bunx --bun vite",
     "build": "tsc && bunx --bun vite build",
