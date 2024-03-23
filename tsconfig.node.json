@@ -3,6 +3,9 @@
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
+    // "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
     "strict": true
